@@ -2,15 +2,25 @@
 
 import * as React from 'react'
 import './App.css'
+import { Header } from './Header';
+import { Discription } from './Description';
+import { DogImg } from './DogImage';
+
+
 
 /**
  * 
  * @type {React.FC}
  */
+
 export const App = () => {
+  
   return (
     <div>
-      <h2>Hello, world!</h2>
+      <Header />
+      <Discription />
+      <hr />
     </div>
-  )
+  );
 }
+
