@@ -8,7 +8,7 @@ import './Description';
  * @type {React.FC}
  */
 
-export const DogImg = (props) => {
+export const DogImage = (props) => {
 	return (
 		<img src={props.url} /> 
 	)

@@ -6,6 +6,8 @@ import './App.css'
 
 export const Header = () => {
   return (
-    <header><h2>Dog アプリ</h2></header>
+    <header>
+      <h2>Dog アプリ</h2>
+    </header>
 	);
 }

@@ -3,14 +3,14 @@
 import * as React from 'react'
 import './App.css'
 import {useState} from 'react';
-import { DogImg } from './DogImage';
+import { DogImage } from './DogImage';
 
 /**
  * 
  * @type {React.FC}
  */
 
-export const Discription =(props) => {
+export const Description =(props) => {
 
 	const [dogUrl, setDogUrl] = useState("https://images.dog.ceo/breeds/spaniel-brittany/n02101388_6057.jpg");
   
@@ -26,7 +26,7 @@ export const Discription =(props) => {
 			<p>犬の画像を表示するサイトです</p>
 		</div>
 		<div className='mm'>
-			<DogImg url= {dogUrl} />
+			<DogImage url= {dogUrl} />
 		</div>
 		<button onClick={callApi} className='btn'>
 			更新
