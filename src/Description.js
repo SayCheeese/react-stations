@@ -22,10 +22,10 @@ export const Description =(props) => {
 
   return (
 	<article>
-		<div className='mm'>
-			<p>犬の画像を表示するサイトです</p>
+		<div className='exp' id="sentence">
+			<p>犬の画像を表示するサイトです。</p>
 		</div>
-		<div className='mm'>
+		<div className='exp' id="expImg">
 			<DogImage url= {dogUrl} />
 		</div>
 		<button onClick={callApi} className='btn'>

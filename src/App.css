@@ -5,6 +5,7 @@
 }
 
 header{
+	text-align: center;
 	background-color: #f5f5f5;
 }
 
@@ -12,38 +13,75 @@ header{
 	display:block;
 } */
 
-h2{
-	text-align: center;
+h1{
+	background-color: #f5f5f5;
+	margin: 0;
+	padding-top: 0.1em;
 }
 
-
-.mm{
-	width: 50%;
+.exp{
 	display: inline-block;
 	justify-content: center;
 	vertical-align: middle;
 	text-align: center;
 }
 
-p{
+#sentence{
+	width:60%;
 	vertical-align: middle;
+}
+#expImg{
+	width:40%;
+}
+
+p{
 }
 
 img{
 	width: 100%;
 }
 
-button{
-	background-color: rgb(57, 126, 216);
+.btn{
+	background-color: dodgerblue;
 	color: #fff;
 	padding-left: 20px;
 	padding-right: 20px;
 	float: right;
 	border: 0em;
-	border-radius: 2em;
+	border-radius: 5px;
 }
 
 hr{
-	margin-top: 2em;
+	margin-top: 0;
 	clear:right;
+	width: 98%;
+}
+
+article{
+	display: block;
+	padding-bottom: 2em;
+	margin-top: 2em;
+	width: 90%;
+	margin-left: 5%;
+}
+
+/*  */
+
+.dropdown-container{
+	display: block;
+	align-items: center;
+
+}
+
+form{
+	width: fit-content;
+	margin: auto;
+}
+
+.dropdown-labal{
+	display: inline-block;
+	padding-right: 1em;
+}
+select{
+	width: 20em;
 }

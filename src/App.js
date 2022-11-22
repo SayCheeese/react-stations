@@ -4,8 +4,7 @@ import * as React from 'react'
 import './App.css'
 import { Header } from './Header';
 import { Description } from './Description';
-import { DogListContainer } from '.DogListContainer';
-
+import { BreedsSelect } from './BreedsSelect';
 
 
 /**
@@ -14,12 +13,13 @@ import { DogListContainer } from '.DogListContainer';
  */
 
 export const App = () => {
-  
+
   return (
     <div>
       <Header />
       <Description />
       <hr />
+      <BreedsSelect />
     </div>
   );
 }
