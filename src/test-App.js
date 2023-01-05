@@ -18,7 +18,7 @@ export const App = () => {
   function setDogUrl () => {
     fetch("https://dog.ceo/api/breeds/image/random")
       .then((res) => res.json())
-      .then((apiData) => (img.src = apiData.message));
+      .then((apiData) => (img.src = apiData.message))
   }
 
   return (
