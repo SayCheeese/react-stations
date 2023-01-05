@@ -34,8 +34,6 @@ h1{
 	width:40%;
 }
 
-p{
-}
 
 img{
 	width: 100%;
@@ -85,3 +83,6 @@ form{
 select{
 	width: 20em;
 }
+select:invalid { color: #bbb; }
+select option { color: black; }
+select option:first-child { color: #bbb; }

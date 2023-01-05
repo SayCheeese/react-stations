@@ -5,6 +5,7 @@ import './App.css'
 import { Header } from './Header';
 import { Description } from './Description';
 import { BreedsSelect } from './BreedsSelect';
+import { DogListContainer } from './DogListContainer';
 
 
 /**
@@ -19,7 +20,7 @@ export const App = () => {
       <Header />
       <Description />
       <hr />
-      <BreedsSelect />
+      <DogListContainer />
     </div>
   );
 }
